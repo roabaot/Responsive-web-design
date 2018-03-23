@@ -1,0 +1,206 @@
+/*
+Theme Name:HTML5;
+Data: March 2017;
+Discription: learn Basic HTML5;
+Version: 1.0;
+Author: Ahmed ALakbari;
+Author URL: http://www.google.com;
+*/
+
+body{
+	background-image: url('playstation/images4.jpg');
+	color: black;
+	font-size: 87%; /* base font-size = 14px */
+	font-family: Arial, 'lucida Sans Unicode';
+	line-height: 2.5;
+	text-align: left;
+}
+
+a {text-decoration: none;}
+a:link, a:visited {color: #34495e;} 
+a:hover, a:active {color: #2980b9;} 
+
+.body{
+	margin: 10px auto;
+	width: 70%;
+	clear: both;
+}
+
+/* -------------------- MAIN HEADER ------------------------ */
+
+.mainHeader img{
+	width: 100%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+}
+.mainHeader nav {
+	background-color: #bdc3c7;
+	height: 55px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	background-color: #bdc3c7;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	display: inline;
+}
+
+.mainHeader a:link, .mainHeader a:visited{
+	color: white;
+	padding: 10px 40px;
+	display: inline-block;
+	height: 35px;
+}
+.mainHeader a:hover, .mainHeader a:active{
+	color: white;
+	background-color: #95a5a6;
+	text-shadow: 1px 1px #000;
+}
+
+/* -------------------- MAIN CONTACT ------------------------ */
+	
+.mainContent{
+	width: 70%;
+	float: left;
+}
+
+.mainContent2  img{
+	margin-left: 35%;
+	border: solid 1px gray;
+
+}
+
+
+.top-content{
+	background-color: #fff;
+	padding: 3%;
+	margin-top: 3%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.post-info{
+	font-size: 90%;
+	color: #999;
+	font-style: italic;
+	margin-top: -20px;
+}
+
+.post-content{
+	display: block;
+}
+
+/* -------------------- SAID BAR ------------------------ */
+
+.theSidebar{
+	width: 24%;
+	margin: 2% 0 0 2%;
+	float: left;
+	padding: 2%;
+	background-color: #fff;
+	height: 1000px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+}
+
+/* -------------------- FOOTER ------------------------ */
+
+.footer {
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	float: left;
+	width: 100%;
+	background-color: #bdc3c7;
+	height: 70px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.footer p {
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+
+.footer a:link, .footer a:visited{
+	color: white;
+	padding: 15px 40px;
+	display: inline-block;
+	height: 40px;
+}
+.footer a:hover, .footer a:active{
+	color: white;
+	background-color: #95a5a6;
+	text-shadow: 1px 1px #000;
+}
+/* --------------------- HTML5  --------------------- */
+
+.post-img{
+	width: 100%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.post-info-video{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+figure {
+	margin: 25px 0;
+	font-size: 90%;
+	color: black;
+}
+
+
+/* ---------------------- image ------------------------- */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }

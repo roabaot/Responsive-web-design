@@ -1,0 +1,55 @@
+/* --------------------- CSS3 FOR MOBILE  --------------------- */
+
+@media screen and (max-width: 480px){
+		.body{
+			width: 90%;
+			font-size:95%;
+
+	}
+
+
+/* --------------------- NAINHEADER MOBILE  --------------------- */
+
+
+.mainHeader nav {
+	height: 220px;
+
+}
+
+.mainHeader ul{
+	width: 100%;
+	padding: 0;
+
+}
+
+.mainHeader nav ul li {
+	display: inline;
+}
+
+.mainHeader a:link, .mainHeader a:visited{
+	display: block;
+}
+.mainHeader a:hover, .mainHeader a:active{
+	color: white;
+	background-color: #95a5a6;
+	text-shadow: 1px 1px #000;
+}
+
+.mainContent{
+	width: 100%;
+}
+
+.theSidebar{
+	width: 96%;
+    margin: 2% auto;
+
+}
+
+.rslides img {
+	height: 500px;
+}
+
+article .heroesBosses {
+	margin-left: 45px;
+}
+}
